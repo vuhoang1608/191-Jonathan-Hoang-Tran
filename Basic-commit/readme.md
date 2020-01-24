@@ -27,7 +27,15 @@
 5. What does git status look like now? Display the file that changed
 
 6. What does git status look like now? 
-Change the file again
-Make a commit
-What does the status look like now? The log?
-Commit the newest change
+   Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   readme.md
+
+7. What does the status look like now? The log?
+   $ git status
+	On branch master
+	Your branch is ahead of 'origin/master' by 3 commits.
+  	(use "git push" to publish your local commits)
+
+	nothing to commit, working tree clean
